@@ -13,7 +13,7 @@
     "forceConsistentCasingInFileNames": true,
     // "noFallthroughCasesInSwitch": true,
     // "module": "es6",
-    // "moduleResolution": "node",
+    "moduleResolution": "node",
     // "resolveJsonModule": true,
     // "isolatedModules": true,
     // "noEmit": true,
@@ -22,6 +22,6 @@
     // "sourceMap": true,
     "noImplicitAny": true,
     "target": "ES5",
-    "module": "ES2015"
+    "module": "ES2015",
   }
 }

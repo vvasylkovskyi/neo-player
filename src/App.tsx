@@ -1,11 +1,17 @@
 import React from 'react';
+import {Player} from './player/player';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">Hello World</header>
-    </div>
+    <React.Fragment>
+      <div className="App">
+        <header className="App-header">
+          <Player />
+        </header>
+      </div>
+    </React.Fragment>
   );
 }
 
